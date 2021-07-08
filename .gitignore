@@ -1,4 +1,4 @@
 *.pdf
 *.zip
 /Baigiamasis darbas
-/.idea
+.idea
