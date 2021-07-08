@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="Formstyle.css">
+</head>
+<body>
+    <h1>
+        Registracija i kursus
+    </h1>
+    <form>
+        <label>Vardas:</label>
+            <input type="text">
+        <h2>Programavimo kalba:</h2>
+        <label>C++</label>
+        <input class=radioelements type="radio" name="selection">
+        <br>
+        <label>PHP</label>
+        <input class=radioelements type="radio" name="selection">
+        <br>
+        <label>Python</label>
+        <input class=radioelements type="radio" name="selection">
+
+        <h3>Papildoma informacija</h3>
+        <textarea name="comment" cols="30" rows="5" placeholder="Pvz.: Turite C++ programavimo patirties"></textarea>
+        <h3>Slaptazodis:</h3>
+        <input type="password">
+        <select name="value" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+            <input type="button" name="Siusti" value="Siusti">
+    </form>
+</body>
+</html>

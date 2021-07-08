@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+th {
+    color: white;
+    background-color: brown;
+    border-color: brown;
+}
+th, td {
+    width: 80px;
+}
+tr {
+    border-style: solid;
+    border-width: 1px;
+    border-color: brown;
+}
+.yellow {
+    background-color: #ebde50;
+}
+.yellow2 {
+    background-color: #f2f207;
+}
