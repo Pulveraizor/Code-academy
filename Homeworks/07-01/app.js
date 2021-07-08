@@ -94,7 +94,7 @@ if (unBlock) {
     })
 }
 
-// TASK 5 /////////////////////////
+// TASK 5 //////////////////////////
 
 function restore() {
     document.body.style.cursor = 'default';
