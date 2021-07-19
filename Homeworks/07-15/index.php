@@ -25,7 +25,7 @@ var_dump(negative(5));
 
 //Sukurkite funkciją kauliukas, kuri imituotų kauliuko metimą. (Į ekraną atspaudintų atsitiktinį skaičių nuo 1 iki 6); Užuomina: rand();
 
-$dice = [1, 2, 3, 4, 5, 6];
+//$dice = [1, 2, 3, 4, 5, 6];
 
 function diceroll()
 {
