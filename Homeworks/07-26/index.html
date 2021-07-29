@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <style>
+    input {
+      width: 200px;
+      height: 25px;
+    }
+  </style>
+</head>
+<body>
+<form method="post" action="calculator.php">
+  <label for="firstnumber">Enter first number here</label>
+  <input id="firstnumber" type="number" name="number1" value="2">
+
+  <br>
+
+      <label for="secondnumber">Enter second number here</label>
+      <input id="secondnumber" type="number" name="number2" value="5">
+
+  <br>
+
+    <label for="mathEq">Select action</label>
+    <select name="equation" id="mathEq">
+        <option value="x">x</option>
+        <option value="/">/</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="squared">Squared</option>
+    </select>
+    <button type="submit" class='form-control' value="Calculate">Calculate</button>
+</form>
+<div class="answer"></div>
+</body>
+</html>
