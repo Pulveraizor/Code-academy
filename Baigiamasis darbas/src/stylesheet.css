@@ -1,0 +1,84 @@
+body {
+    background: url(../Images/background2.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+/*.mainheader was created to prevent interference of
+   timetable.js with the actual page header*/
+.mainheader {
+    font-family: Impact;
+    color: white;
+    height: 100px;
+    background-color: #360A3D;
+}
+header {
+    font-family: Impact;
+    color: white;
+}
+h1 {
+    line-height: 100px;
+    margin-left: 5%;
+}
+h3 {
+    margin: 5% 5%;
+    font-family: Impact;
+}
+.home {
+    height: 750px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.maincontent {
+    flex: 1 0 auto;
+    background-color: white;
+}
+.maincenter {
+    color: black;
+}
+.postimage {
+    height: 300px;
+    width: auto;
+    border-radius: 2%;
+}
+.nav-link {
+    font-family: Impact;
+    font-size: 25px;
+    align: center;
+    /*line-height: 50px;*/
+}
+.navbar {
+    height: 50px;
+    background-color: #45064F;
+}
+.post {
+    margin: 3%;
+}
+footer {
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+.footer {
+    line-height: 50px;
+    background-color: #45064F;
+    margin-bottom: 0;
+    position: sticky;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+.portrait {
+    height: 200px;
+    width: 150px;
+    border-radius: 2%;
+}
+.insta {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.sendbtn {
+    background-color: #45064F !important;
+    border: none !important;
+}
